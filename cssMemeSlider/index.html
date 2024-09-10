@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <div class="slider">
+            <div class="slides">
+                <input checked type="radio" name="slider_input" id="r1">
+                <input type="radio" name="slider_input" id="r2">
+                <input type="radio" name="slider_input" id="r3">
+                <input type="radio" name="slider_input" id="r4">
+
+                <div class="image i1">
+                    <img src="assets/images/1.jpg" alt="first">
+                </div>
+                <div class="image i2">
+                    <img src="assets/images/2.jpg" alt="second">
+                </div>
+                <div class="image i3">
+                    <img src="assets/images/3.jpg" alt="third">
+                </div>
+                <div class="image i4">
+                    <img src="assets/images/4.jpg" alt="four">
+                </div>
+            </div>
+        </div>
+        <div class="footer_wrapper">
+            <div class="texts">
+                <span class="text r1 r_active">Текст первой картинки</span>
+                <span class="text r2">Текст второй картинки</span>
+                <span class="text r3">Текст третьей картинки</span>
+                <span class="text r4">Текст четвертой картинки</span>
+            </div>
+            <div class="nav">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+                <label for="r4" class="bar"></label>
+
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
