@@ -53,16 +53,15 @@ body {
 
 .footer_wrapper {
     max-width: 128rem;
-    width: 100%;
-    position: absolute;
     display: flex;
     justify-content: right;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .nav {
     display: flex;
+    position: absolute;
 }
 
 .bar_shadow {
@@ -95,11 +94,10 @@ body {
 }
 
 .texts_wrapper {
-    position: absolute;
     max-width: 100rem;
-    width: 100%;
+    position: absolute;
     overflow: hidden;
-    margin-top: 2rem;
+    margin-top: 1.7rem;
 }
 
 .texts {
@@ -113,7 +111,6 @@ body {
     font-size: 2rem;
     color: #ddd;
     opacity: .5;
-    max-width: 100rem;
     width: 100%;
 }
 
