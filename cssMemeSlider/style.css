@@ -168,3 +168,14 @@ body {
     opacity: .9;
     transform: scale(1.3);
 }
+
+@media only screen and (max-width: 990px) {
+    .texts_wrapper {
+        margin-top: 10rem;
+    }
+
+    .footer_wrapper {
+        margin-top: 5rem;
+        justify-content: center;
+    }
+}
