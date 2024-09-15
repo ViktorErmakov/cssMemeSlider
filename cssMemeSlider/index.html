@@ -11,13 +11,14 @@
 <body>
     <div class="wrapper">
         <div class="slider">
-            <div class="slides">
-                <input checked type="radio" name="slider_input" id="r1">
-                <input type="radio" name="slider_input" id="r2">
-                <input type="radio" name="slider_input" id="r3">
-                <input type="radio" name="slider_input" id="r4">
 
-                <div class="image i1">
+            <input checked type="radio" name="slider_input" id="r1" class="slider_input">
+            <input type="radio" name="slider_input" id="r2" class="slider_input">
+            <input type="radio" name="slider_input" id="r3" class="slider_input">
+            <input type="radio" name="slider_input" id="r4" class="slider_input">
+
+            <div class="slides">
+                <div class="image">
                     <img src="assets/images/1.jpg" alt="first">
                 </div>
                 <div class="image">
@@ -29,29 +30,36 @@
                 <div class="image">
                     <img src="assets/images/4.jpg" alt="four">
                 </div>
-                <div class="texts_wrapper">
-                    <div class="texts">
-                        <span class="text t1">Текст первой картинки</span>
-                        <span class="text">Текст второй картинки</span>
-                        <span class="text">Текст третьей картинки</span>
-                        <span class="text">Текст четвертой картинки</span>
-                    </div>
+            </div>
+
+            <div class="texts_wrapper">
+                <div class="texts">
+                    <span class="text t1">Текст первой картинки</span>
+                    <span class="text">Текст второй картинки</span>
+                    <span class="text">Текст третьей картинки</span>
+                    <span class="text">Текст четвертой картинки</span>
+                </div>
+            </div>
+
+            <div class="footer_wrapper">
+                <div class="nav">
+                    <label for="r1" class="bar">
+                        <div class="bar_shadow"></div>
+                    </label>
+                    <label for="r2" class="bar">
+                        <div class="bar_shadow"></div>
+                    </label>
+                    <label for="r3" class="bar">
+                        <div class="bar_shadow"></div>
+                    </label>
+                    <label for="r4" class="bar">
+                        <div class="bar_shadow"></div>
+                    </label>
                 </div>
             </div>
 
         </div>
-        <div class="footer_wrapper">
 
-            <div class="nav">
-                
-                <label for="r1" class="bar">
-                    <!-- <div class="bar_shadow"></div> -->
-                </label>
-                <label for="r2" class="bar"></label>
-                <label for="r3" class="bar"></label>
-                <label for="r4" class="bar"></label>
-            </div>
-        </div>
     </div>
 
 </body>
